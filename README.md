@@ -186,6 +186,20 @@ async remove(id: string) {
 }
 ```
 20. Excluir directorio de mongo en gitignore
+21. Subir a git
+ - Creamos un nuevo repositorio con mi nombre
+ - Agregamos código al repo generado
+ ```
+ git add .
+ git commit -m 'Fin seccion 7'
+ ```
+ - Al generar el repo en github nos indica los comandos para subir ya existente. solo cambiaré rama main por master
+ ```
+  git remote add origin https://github.com/celizond/mi-pokedex.git
+  git branch -M master
+  git push -u origin master
+```
+- Si da problemas en la autenticación buscar token. Guía: https://dev.to/shafia/support-for-password-authentication-was-removed-please-use-a-personal-access-token-instead-4nbk#:~:text=Please%20use%20a%20personal%20access%20token%20instead.,-While%20pushing%20some&text=Starting%20from%20August%2013%2C%202021,in%20place%20of%20your%20password.
 
 
 ## Stack usado
